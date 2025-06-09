@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
-    <title>Veroyent</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Veroyent">
+    <meta name="description" content="Test website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Veroyent</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
-  <body>
+  <body class="main">
     <div id="app">
       {{ message }} <br>
       {{'Random number: ' + Math.ceil(Math.random()*6) }}
@@ -21,4 +26,13 @@
         app.mount('#app')
       </script>
   </body>
+  <footer>
+    <address>
+      Created by Veroyent &copy;<br>
+      <a href="mailto:test@gmail.com">test@gmail.com</a><br>
+      13 Lovely Lane<br>
+      London LN11 1AB<br>
+      United Kingdom
+    </address>
+  </footer>
 </html>
