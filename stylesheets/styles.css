@@ -9,6 +9,12 @@ html {
   margin: auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 4;
+  grid-column-gap: 0.2rem;
+}
+
 footer {
   margin: 20px 0;
 }
